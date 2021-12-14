@@ -1,0 +1,116 @@
+body,
+ul,
+li,
+h1,
+h2,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+/*body {
+  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/White\ Black\ and\ Orange\ Illustrative\ Design\ Portfolio\ &\ Resume\ Website-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.pictureAndButton {
+  top: 60px;
+}
+.pictureAndButton .welcome {
+  color: rgb(0, 0, 0);
+
+  width: 100%;
+}
+.pictureAndButton .chatbubble {
+  position: absolute;
+  text-align: center;
+
+  font-size: 70px;
+  top: 26%;
+  left: 4%;
+  transform: rotate(-30deg);
+}
+
+.pictureAndButton .forre {
+  position: absolute;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 25%;
+  font-size: 50px;
+  top: 47%;
+}
+
+.pictureAndButton .enterButton {
+  position: absolute;
+
+  width: 100%;
+  top: 79%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pictureAndButton .enterButton a {
+  color: black;
+  background-color: white;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 6px 25px;
+  display: inline-block;
+  border-radius: 36px;
+  text-decoration: none;
+}
+.pictureAndButton .enterButton a:visited {
+  color: black;
+}
+.enterButton h2 {
+  color: black;
+  font-size: 30px;
+}
+.enterButton button {
+  width: 150px;
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
