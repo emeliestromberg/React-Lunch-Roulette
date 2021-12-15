@@ -2,11 +2,12 @@ import React from "react";
 import "../App.css";
 import MainMenuNavigation from "./MainMenuNavigation";
 import "../styles/WelcomePage.css";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function WelcomePage() {
   return (
     <div className="pictureAndButton">
+
       <div className="welcome">
         <h2 className="chatbubble">Welcome to</h2>
         <br />
@@ -17,10 +18,8 @@ function WelcomePage() {
         <h2>Click here to enter the tent</h2>
         <br />
         <br />
-        <button>ENTER</button>
-        <MainMenuNavigation />
-        {/*<a href="/MainMenuNavigation">ENTER</a>*/}
-        {/* <Link to={"./MainMenuNavigation"}>ENTER</Link> */}
+        <a href="src/components/MainMenuNavigation.tsx">ENTER</a>
+        <Link to={"/"}>This is test</Link>
       </div>
     </div>
   );

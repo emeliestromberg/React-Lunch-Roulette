@@ -1,0 +1,102 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.background-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: -10;
+}
+body {
+  background-image: url("../img/AllButtonsBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .welcome h2 {
+  color: black;
+  font-size: 26px;
+  z-index: 2;
+  right: 9%;
+  top: 15%;
+  position: absolute;
+  transform: rotate(10deg);
+  text-align: center;
+}
+span {
+  font-size: 34px;
+}
+.banner .please-choose img {
+  width: 14em;
+  height: 6.2em;
+  position: absolute;
+  top: 71%;
+  z-index: 1;
+}
+.banner .welcome img {
+  width: 24em;
+  height: 8em;
+  position: absolute;
+  right: 34px;
+  top: 12%;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+.banner h3 {
+  font-size: 19px;
+  position: absolute;
+  z-index: 2;
+  top: 71.5%;
+  left: 1.5%;
+  text-align: center;
+}
+.banner h2 span {
+  font-size: 1.3em;
+}
+nav ul {
+  white-space: nowrap;
+  margin: 0 auto;
+  position: absolute;
+  top: 89%;
+  left: 13.5%;
+}
+nav li {
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 40px;
+}
+.main-nav .button a {
+  color: black;
+  background-color: orange;
+  border: 5px solid white;
+  padding: 6px 25px;
+  display: inline-block;
+  border-radius: 36px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.main-nav .button a:visited {
+  color: black;
+}
+.button1 {
+  border-radius: 36px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.button1:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+.fisrtli {
+  padding-left: unset;
+  padding-left: 10000px;
+}
