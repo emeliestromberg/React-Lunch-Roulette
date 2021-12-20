@@ -18,6 +18,10 @@ const SeeList = () => {
 
   return (
     <>
+      <div
+        className="seeListBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
