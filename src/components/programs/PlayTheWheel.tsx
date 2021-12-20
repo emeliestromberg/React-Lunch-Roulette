@@ -7,9 +7,9 @@ interface Props {
 
 const PlayTheWheel = (props) => {
 
+Math.random()
 
 
-  
   return (
     <>
     </>
