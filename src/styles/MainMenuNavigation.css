@@ -16,7 +16,7 @@ a {
   position: relative;
   z-index: -10;
 }
-mainMenuBackground{
+.mainMenuBackground{
   background-repeat: no-repeat;
   background-size: cover;
 }
