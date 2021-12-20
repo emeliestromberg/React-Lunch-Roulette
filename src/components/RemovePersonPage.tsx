@@ -18,6 +18,10 @@ const RemovePerson = () => {
 
   return (
     <>
+      <div
+        className="removePersonBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>

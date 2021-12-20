@@ -9,6 +9,10 @@ p {
   padding: 0;
   font-family: arial;
 }
+.removePersonBackground {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .button {
   position: absolute;
   top: 89%;
@@ -27,11 +31,6 @@ p {
 }
 .button a:visited {
   color: black;
-}
-body {
-  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/GoBackButtonBackgroundThree.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .welcome h1 {
   position: absolute;

@@ -38,7 +38,7 @@ p {
   color: rgb(0, 0, 0);
   transform: translateY(-7px);
 }
-addPersonBackground{
+.addPersonBackground{
   background-repeat: no-repeat;
   background-size: cover;
 }
