@@ -1,5 +1,5 @@
 import React from "react";
-import MainMenuNavigationButton from "./MainMenuNavigationButton";
+import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/MainMenuNavigationButton.css";
 
 <body>

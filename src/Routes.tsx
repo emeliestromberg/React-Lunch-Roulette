@@ -18,7 +18,7 @@ const Routes: FunctionComponent = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/home" element={<WelcomePage />}></Route>
+        <Route path="/Home" element={<WelcomePage />}></Route>
         <Route path="/SeeList" element={<SeeListPage />}></Route>
         <Route path="/SpinTheWheel" element={<SpinTheWheelPage />}></Route>
         <Route path="/RemovePerson" element={<RemovePersonPage />}></Route>

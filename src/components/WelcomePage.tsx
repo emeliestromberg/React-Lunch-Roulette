@@ -18,8 +18,7 @@ function WelcomePage() {
         <h2>Click here to enter the tent</h2>
         <br />
         <br />
-        <a href="src/components/MainMenuNavigation.tsx">ENTER</a>
-        <Link to={"/"}>This is test</Link>
+        <Link to={"/Home"}>ENTER</Link>
       </div>
     </div>
   );
