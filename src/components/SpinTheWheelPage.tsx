@@ -11,7 +11,7 @@ interface Button {
 }
 
 const SpinTheWheel = () => {
-  const buttons = [
+  const button = [
     { text: "Go Back", link: "./MainMenu" },
   ];
 
@@ -29,7 +29,7 @@ const SpinTheWheel = () => {
   return (
     <>
       <div>
-        <ul>{buttons.map(renderButtons)}</ul>
+        <ul>{button.map(renderButtons)}</ul>
       </div>
       <div>
         <ul>{playbutton.map(renderPlayButton)}</ul>
