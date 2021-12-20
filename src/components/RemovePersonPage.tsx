@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
+import RemovePersonBackground from "../img/RemovePersonBackground.png";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
@@ -20,7 +21,7 @@ const RemovePerson = () => {
     <>
       <div
         className="removePersonBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
+        style={{ backgroundImage: RemovePersonBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>

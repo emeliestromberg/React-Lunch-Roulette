@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
+import SeeListBackground from "../img/SeeListBackground.png";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
@@ -20,7 +21,7 @@ const SeeList = () => {
     <>
       <div
         className="seeListBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
+        style={{ backgroundImage: SeeListBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
