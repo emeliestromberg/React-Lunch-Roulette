@@ -5,12 +5,12 @@ import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
 function WelcomePage() {
-
   return (
     <div className="pictureAndButton">
       <div
         className="welcomePageBackground"
-        style={{ backgroundImage: WelcomePageBackground }}></div>
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div className="welcome">
         <h2 className="chatbubble">Welcome to</h2>
         <br />
