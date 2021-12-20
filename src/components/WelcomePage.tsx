@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import MainMenuNavigation from "./MainMenuNavigation";
 import "../styles/WelcomePage.css";
+import WelcomePageBackground from "../img/WelcomePageBackground.png";
 import { Link } from "react-router-dom";
 
 function WelcomePage() {
