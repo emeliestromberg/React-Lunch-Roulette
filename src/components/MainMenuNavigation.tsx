@@ -1,7 +1,7 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/MainMenuNavigationButton.css";
-import MainMenuBackground from "../img/MainMenuNavigationBackground.png"
+import MainMenuBackground from "../img/MainMenuNavigationBackground.png";
 
 interface Button {
   text: string;
@@ -51,13 +51,6 @@ const MainMenuNavigation = () => {
 };
 
 export default MainMenuNavigation;
-
-
-
-
-
-
-
 
 //const buttons = ["Knapp 1", "Knapp 2", "Knapp 3"];
 
