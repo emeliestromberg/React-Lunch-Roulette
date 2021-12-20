@@ -9,7 +9,7 @@ interface Button {
   link: string;
 }
 
-const SpinTheWheel = () => {
+const AddPerson = () => {
   const buttons = [{ text: "Go Back", link: "./MainMenu" }];
 
   const renderButtons = (knapp: Button) => (
@@ -25,4 +25,4 @@ const SpinTheWheel = () => {
   );
 };
 
-export default SpinTheWheel;
+export default AddPerson;
