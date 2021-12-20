@@ -22,6 +22,10 @@ const MainMenuNavigation = () => {
 
   return (
     <>
+      <div
+        className="mainMenuBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
