@@ -8,24 +8,25 @@ import RemovePersonPage from "./components/RemovePersonPage";
 import AddPersonPage from "./components/AddPersonPage";
 
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route as Switch,
   Route,
   useParams,
+  Routes as ReactRouterDomRoutes,
 } from "react-router-dom";
 
 const Routes: FunctionComponent = () => {
   return (
-    <Router>
-      <Switch>
+    <BrowserRouter>
+      <ReactRouterDomRoutes>
         <Route path="/Home" element={<WelcomePage />}></Route>
-        <Route path="/SeeList" element={<SeeListPage />}></Route>
+        <Route path="/List" element={<SeeListPage />}></Route>
         <Route path="/SpinTheWheel" element={<SpinTheWheelPage />}></Route>
         <Route path="/RemovePerson" element={<RemovePersonPage />}></Route>
         <Route path="/AddPerson" element={<AddPersonPage />}></Route>
         <Route path="/MainMenu" element={<MainMenuNavigation />}></Route>
-      </Switch>
-    </Router>
+      </ReactRouterDomRoutes>
+    </BrowserRouter>
   );
 };
 
