@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
+import AddPersonBackground from "../img/AddPersonBackground.png";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
@@ -20,7 +21,7 @@ const AddPerson = () => {
     <>
       <div
         className="addPersonBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
+        style={{ backgroundImage: AddPersonBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>

@@ -1,6 +1,7 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/MainMenuNavigationButton.css";
+import MainMenuBackground from "../img/MainMenuNavigationBackground.png"
 
 interface Button {
   text: string;
@@ -24,7 +25,7 @@ const MainMenuNavigation = () => {
     <>
       <div
         className="mainMenuBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
+        style={{ backgroundImage: MainMenuBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>

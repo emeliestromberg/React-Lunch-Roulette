@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import SpinTheWheelButton from "./buttons/SpinTheWheelButton";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
+import SpinTheWheelBackground from "../img/SpinTheWheelBackground.png";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
@@ -29,7 +30,7 @@ const SpinTheWheel = () => {
     <>
       <div
         className="spinTheWheelBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
+        style={{ backgroundImage: SpinTheWheelBackground }}
       ></div>
       <div>
         <ul>{button.map(renderButtons)}</ul>
