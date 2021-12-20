@@ -17,8 +17,7 @@ img {
   position: relative;
   z-index: 0;
 }
-body {
-  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/SpinTheWheelBackground.png");
+.spinTheWheelBackground {
   background-repeat: no-repeat;
   background-size: cover;
 }

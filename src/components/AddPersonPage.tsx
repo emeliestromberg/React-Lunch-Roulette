@@ -18,6 +18,10 @@ const AddPerson = () => {
 
   return (
     <>
+      <div
+        className="addPersonBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>

@@ -38,8 +38,7 @@ p {
   color: rgb(0, 0, 0);
   transform: translateY(-7px);
 }
-body {
-  background-image: url("/LunchrouletteFrontendBackend/LunchrouletteFrontend/img/GoBackButtonbackground.png");
+addPersonBackground{
   background-repeat: no-repeat;
   background-size: cover;
 }

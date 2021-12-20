@@ -19,8 +19,7 @@ const SpinTheWheel = () => {
     <MainMenuNavigationButton buttontext={knapp.text} link={knapp.link} />
   );
 
-  const playbutton = [
-      { text: "Spin!", link: "./SpinTheWheel" }];
+  const playbutton = [{ text: "Spin!", link: "./SpinTheWheel" }];
 
   const renderPlayButton = (knapp: Button) => (
     <SpinTheWheelButton buttontext={knapp.text} link={knapp.link} />
@@ -28,6 +27,10 @@ const SpinTheWheel = () => {
 
   return (
     <>
+      <div
+        className="spinTheWheelBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{button.map(renderButtons)}</ul>
       </div>
