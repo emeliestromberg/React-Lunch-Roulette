@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import ReactDOM from "react-dom";
 import WelcomePage from "./components/WelcomePage";
-//import MainMenuNavigation from "./components/MainMenuNavigation";
+import MainMenuNavigation from "./components/MainMenuNavigation";
 import SeeListPage from "./components/SeeListPage";
 import SpinTheWheelPage from "./components/SpinTheWheelPage";
 import RemovePersonPage from "./components/RemovePersonPage";
@@ -23,6 +23,7 @@ const Routes: FunctionComponent = () => {
         <Route path="/SpinTheWheel" element={<SpinTheWheelPage />}></Route>
         <Route path="/RemovePerson" element={<RemovePersonPage />}></Route>
         <Route path="/AddPerson" element={<AddPersonPage />}></Route>
+        <Route path="/MainMenu" element={<MainMenuNavigation />}></Route>
       </Switch>
     </Router>
   );

@@ -12,7 +12,7 @@ interface Button {
 
 const SpinTheWheel = () => {
   const buttons = [
-    { text: "Go Back", link: "./index1.html" },
+    { text: "Go Back", link: "./MainMenu" },
   ];
 
   const renderButtons = (knapp: Button) => (
@@ -20,7 +20,7 @@ const SpinTheWheel = () => {
   );
 
   const playbutton = [
-      { text: "Spin!", link: "./index1.html" }];
+      { text: "Spin!", link: "./SpinTheWheel" }];
 
   const renderPlayButton = (knapp: Button) => (
     <SpinTheWheelButton buttontext={knapp.text} link={knapp.link} />
