@@ -5,6 +5,7 @@ import "../styles/WelcomePage.css";
 import {Link} from "react-router-dom";
 
 function WelcomePage() {
+
   return (
     <div className="pictureAndButton">
 

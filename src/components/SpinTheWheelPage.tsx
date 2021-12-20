@@ -1,13 +1,41 @@
 import React from "react";
 import "../App.css";
-import MainMenuNavigation from "./MainMenuNavigation";
+import SpinTheWheelButton from "./buttons/SpinTheWheelButton";
+import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
 
-function WelcomePage() {
-  return (
-    
-  );
+interface Button {
+  text: string;
+  link: string;
 }
 
-export default WelcomePage;
+const SpinTheWheel = () => {
+  const buttons = [
+    { text: "Go Back", link: "./index1.html" },
+  ];
+
+  const renderButtons = (knapp: Button) => (
+    <MainMenuNavigationButton buttontext={knapp.text} link={knapp.link} />
+  );
+
+  const playbutton = [
+      { text: "Spin!", link: "./index1.html" }];
+
+  const renderPlayButton = (knapp: Button) => (
+    <SpinTheWheelButton buttontext={knapp.text} link={knapp.link} />
+  );
+
+  return (
+    <>
+      <div>
+        <ul>{buttons.map(renderButtons)}</ul>
+      </div>
+      <div>
+        <ul>{playbutton.map(renderPlayButton)}</ul>
+      </div>
+    </>
+  );
+};
+
+export default SpinTheWheel;
