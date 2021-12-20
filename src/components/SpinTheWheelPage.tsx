@@ -11,16 +11,13 @@ interface Button {
 }
 
 const SpinTheWheel = () => {
-  const buttons = [
-    { text: "Go Back", link: "./index1.html" },
-  ];
+  const buttons = [{ text: "Go Back", link: "./index1.html" }];
 
   const renderButtons = (knapp: Button) => (
     <MainMenuNavigationButton buttontext={knapp.text} link={knapp.link} />
   );
 
-  const playbutton = [
-      { text: "Spin!", link: "./index1.html" }];
+  const playbutton = [{ text: "Spin!", link: "./index1.html" }];
 
   const renderPlayButton = (knapp: Button) => (
     <SpinTheWheelButton buttontext={knapp.text} link={knapp.link} />
@@ -28,6 +25,10 @@ const SpinTheWheel = () => {
 
   return (
     <>
+      <div
+        className="spinTheWheelBackground"
+        style={{ backgroundImage: WelcomePageBackground }}
+      ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
