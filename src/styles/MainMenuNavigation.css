@@ -8,18 +8,6 @@ a {
   padding: 0;
   font-family: arial;
 }
-.background-image {
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  z-index: -10;
-}
-.mainMenuBackground{
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .banner .welcome h2 {
   color: black;
   font-size: 26px;
@@ -39,6 +27,7 @@ span {
   position: absolute;
   top: 71%;
   z-index: 1;
+left: 0%;
 }
 .banner .welcome img {
   width: 24em;
@@ -60,19 +49,18 @@ span {
 .banner h2 span {
   font-size: 1.3em;
 }
-nav ul {
+ul {
   white-space: nowrap;
-  margin: 0 auto;
   position: absolute;
   top: 89%;
   left: 13.5%;
 }
-nav li {
+li {
   display: inline-block;
   font-size: 16px;
   padding-left: 40px;
 }
-.main-nav .button a {
+.button a {
   color: black;
   background-color: orange;
   border: 5px solid white;
@@ -82,7 +70,7 @@ nav li {
   text-decoration: none;
   font-weight: normal;
 }
-.main-nav .button a:visited {
+.button a:visited {
   color: black;
 }
 .button1 {

@@ -1,6 +1,6 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-import "../styles/MainMenuNavigationButton.css";
+import "../styles/MainMenuNavigation.css";
 import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
 import MainMenuBackground from "../img/MainMenuNavigationBackground.png";
 

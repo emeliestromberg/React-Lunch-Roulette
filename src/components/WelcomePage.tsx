@@ -22,7 +22,7 @@ function WelcomePage() {
         <h2>Click here to enter the tent</h2>
         <br />
         <br />
-        <Link to={"/Home"}>ENTER</Link>
+        <Link to={"/MainMenu"}>ENTER</Link>
       </div>
     </div>
   );
