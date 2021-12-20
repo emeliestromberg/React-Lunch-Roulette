@@ -48,6 +48,12 @@ const MainMenuNavigation = () => {
 export default MainMenuNavigation;
 
 
+
+
+
+
+
+
 //const buttons = ["Knapp 1", "Knapp 2", "Knapp 3"];
 
 /*<div>
