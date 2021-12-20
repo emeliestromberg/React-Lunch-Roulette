@@ -63,23 +63,6 @@ body {
   font-weight: normal;
   font-size: 24px;
 }
-/*
-.formSection .addPersonForm input [type="text"] {
-  padding: 20px;
-  border: 7px solid lightblue;
-  border-radius: 36px;
-}
-.test input [type="text"] {
-  padding: 20px;
-  border: 7px solid lightblue;
-  border-radius: 36px;
-}
-input [type="submit"] {
-  color: orange;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 36px;
-} */
 input {
   background-color: blanchedalmond;
   border-radius: 36px;
@@ -99,3 +82,21 @@ input {
 ::placeholder {
   color: rgb(247, 188, 78);
 }
+
+/*
+.formSection .addPersonForm input [type="text"] {
+  padding: 20px;
+  border: 7px solid lightblue;
+  border-radius: 36px;
+}
+.test input [type="text"] {
+  padding: 20px;
+  border: 7px solid lightblue;
+  border-radius: 36px;
+}
+input [type="submit"] {
+  color: orange;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 36px;
+} */
