@@ -2,6 +2,7 @@ import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import RemovePersonBackground from "../img/RemovePersonBackground.png";
 import "../styles/WelcomePage.css";
+import RemoveForm from "./programs/RemoveForm";
 
 interface Button {
   text: string;
@@ -24,6 +25,7 @@ const RemovePerson = () => {
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
+      <RemoveForm/>
     </>
   );
 };

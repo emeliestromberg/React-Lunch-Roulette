@@ -2,6 +2,7 @@ import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import AddPersonBackground from "../img/AddPersonBackground.png";
 import "../styles/WelcomePage.css";
+import AddForm from "./programs/AddForm";
 
 
 interface Button {
@@ -25,6 +26,7 @@ const AddPerson = () => {
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
+      <AddForm/>
     </>
   );
 };
