@@ -12,7 +12,7 @@ interface Button {
 }
 
 const SpinTheWheel = () => {
-  const button = [ { text: "Go Back", link: "/MainMenu" },];
+  const buttons = [ { text: "Go Back", link: "/MainMenu" },];
   const playbutton = [{ text: "Spin!", link: "/SpinTheWheel" }];
 
   const renderButtons = (knapp: Button) => (
@@ -30,7 +30,7 @@ const SpinTheWheel = () => {
         style={{ backgroundImage: SpinTheWheelBackground }}
       ></div>
       <div>
-        <ul>{button.map(renderButtons)}</ul>
+        <ul>{buttons.map(renderButtons)}</ul>
       </div>
       <div>
         <ul>{playbutton.map(renderPlayButton)}</ul>

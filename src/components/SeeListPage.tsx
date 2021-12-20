@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/SeeListPage.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-import SeeListPageBackground from "../img/SeeListPageBackground.png";
+import SeeListPageBackground from "../img/SeeListBackground.png";
 import ParticipantList from "./ParticipantList";
 
 interface Button {

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import "../styles/MainMenuNavigationButton.css";
+//import "src/styles/MainMenuNavigation.css";
 
 interface Props {
   buttontext: string;

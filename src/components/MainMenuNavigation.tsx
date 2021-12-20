@@ -2,7 +2,7 @@ import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/MainMenuNavigation.css";
 import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
-import MainMenuBackground from "../img/MainMenuNavigationBackground.png";
+import MainMenuBackground from "../img/MainMenuBackground.png";
 
 interface Button {
   text: string;

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import "../styles/SpinTheWheelPage.css";
+//import "src/styles/SpinTheWheelPage.css";
 
 interface Props {
   buttontext: string;
