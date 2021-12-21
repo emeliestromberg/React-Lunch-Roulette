@@ -1,6 +1,6 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-import RemovePersonBackground from "../img/RemovePersonBackground.png";
+//import RemovePersonBackground from "../img/RemovePersonBackground.png";
 import "../styles/WelcomePage.css";
 import RemoveForm from "./programs/RemoveForm";
 
@@ -20,7 +20,6 @@ const RemovePerson = () => {
     <>
       <div
         className="removePersonBackground"
-        style={{ backgroundImage: RemovePersonBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
@@ -31,3 +30,6 @@ const RemovePerson = () => {
 };
 
 export default RemovePerson;
+
+
+{/*style={{ backgroundImage: RemovePersonBackground }}*/}

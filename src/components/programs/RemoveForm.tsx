@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 
-interface Props {
-  buttontext: string;
-  link: string;
-}
 
-const RemovePersonForm = (Props) => {
+const RemovePersonForm = () => {
   const [person, setPerson] = useState("");
   return (
     <>

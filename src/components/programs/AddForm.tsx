@@ -1,11 +1,8 @@
 import React, { useState } from "react";
+import "src/styles/AddPersonPage.css";
 
-interface Props {
-  buttontext: string;
-  link: string;
-}
 
-const AddPersonForm = (Props) => {
+const AddPersonForm = () => {
     const [person, setPerson] = useState("");
   return (
     <>

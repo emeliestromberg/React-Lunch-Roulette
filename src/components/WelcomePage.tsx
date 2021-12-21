@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import MainMenuNavigation from "./MainMenuNavigation";
 import "../styles/WelcomePage.css";
-import WelcomePageBackground from "../img/WelcomePageBackground.png";
+//import WelcomePageBackground from "../img/WelcomePageBackground.png";
 import { Link } from "react-router-dom";
 
 function WelcomePage() {
@@ -10,7 +10,6 @@ function WelcomePage() {
     <div className="pictureAndButton">
       <div
         className="welcomePageBackground"
-        style={{ backgroundImage: WelcomePageBackground }}
       ></div>
       <div className="welcome">
         <h2 className="chatbubble">Welcome to</h2>
@@ -29,3 +28,8 @@ function WelcomePage() {
 }
 
 export default WelcomePage;
+
+
+{
+  /* style={{ backgroundImage: WelcomePageBackground }} */
+}

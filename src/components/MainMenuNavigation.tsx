@@ -1,8 +1,8 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import "../styles/MainMenuNavigation.css";
-import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
-import MainMenuBackground from "../img/MainMenuBackground.png";
+//import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
+//import MainMenuBackground from "../img/MainMenuBackground.png";
 
 interface Button {
   text: string;
@@ -24,21 +24,21 @@ const MainMenuNavigation = () => {
 
   return (
     <>
-      <div style={{ backgroundImage: MainMenuBackground }}>
+      <div>
         <section className="banner">
           <div className="welcome">
             <h2>
               Welcome to the <br />
               <span>Main Menu!</span>
             </h2>
-            <img src={SpeechBubbleRight} alt="Bubble" />
+            {/*  <img src={SpeechBubbleRight} alt="Bubble" /> */}
           </div>
           <div className="please-choose">
             <h3>
               Please choose what <br />
               you want to do
             </h3>
-            <img src={SpeechBubbleRight} alt="Bubble" />
+            {/*  <img src={SpeechBubbleRight} alt="Bubble" /> */}
           </div>
         </section>
 
@@ -51,6 +51,11 @@ const MainMenuNavigation = () => {
 };
 
 export default MainMenuNavigation;
+
+
+{/*style={{ backgroundImage: MainMenuBackground }}*/}
+
+
 
 //const buttons = ["Knapp 1", "Knapp 2", "Knapp 3"];
 

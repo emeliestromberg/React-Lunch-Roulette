@@ -1,6 +1,6 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-import AddPersonBackground from "../img/AddPersonBackground.png";
+//import AddPersonBackground from "../img/AddPersonBackground.png";
 import "../styles/WelcomePage.css";
 import AddForm from "./programs/AddForm";
 
@@ -21,7 +21,6 @@ const AddPerson = () => {
     <>
       <div
         className="addPersonBackground"
-        style={{ backgroundImage: AddPersonBackground }}
       ></div>
       <div>
         <ul>{buttons.map(renderButtons)}</ul>
@@ -32,3 +31,5 @@ const AddPerson = () => {
 };
 
 export default AddPerson;
+
+{/*style={{ backgroundImage: AddPersonBackground }}*/}

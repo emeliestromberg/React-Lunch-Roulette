@@ -1,11 +1,7 @@
 import React from "react";
 
-interface Props {
-  buttontext: string;
-  link: string;
-}
 
-const PlayTheWheel = (props) => {
+const PlayTheWheel = () => {
 
 Math.random()
 
