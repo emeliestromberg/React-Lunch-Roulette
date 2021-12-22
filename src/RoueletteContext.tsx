@@ -21,7 +21,7 @@ export const RouletteContextProvider: React.FunctionComponent = (props) => {
     JSON.parse(window.localStorage.getItem("persons") ?? "[]") as IPerson[]
   );
   const removePersonFromList = (personName: string) => {
-    const newPersons = persons.filter((p) => p.name != personName);
+    const newPersons = persons.filter((p) => p.name !== personName);
     setPersons(newPersons);
     window.localStorage.setItem("persons", JSON.stringify(newPersons));
   };

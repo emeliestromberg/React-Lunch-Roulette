@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import ReactDOM from "react-dom";
 import WelcomePage from "./components/WelcomePage";
 import MainMenuNavigation from "./components/MainMenuNavigation";
 import SeeListPage from "./components/SeeListPage";
@@ -11,7 +10,6 @@ import {
   BrowserRouter,
   Route as Switch,
   Route,
-  useParams,
   Routes as ReactRouterDomRoutes,
 } from "react-router-dom";
 

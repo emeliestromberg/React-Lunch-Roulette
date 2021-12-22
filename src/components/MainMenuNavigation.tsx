@@ -57,9 +57,6 @@ const MainMenuNavigation = () => {
 export default MainMenuNavigation;
 
 
-{/*style={{ backgroundImage: MainMenuBackground }}*/}
-
-
 
 //const buttons = ["Knapp 1", "Knapp 2", "Knapp 3"];
 

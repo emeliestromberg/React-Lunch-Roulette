@@ -4,7 +4,6 @@ import SpinTheWheelButton from "./buttons/SpinTheWheelButton";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import SpinTheWheelBackground from "../img/SpinTheWheelBackground.png";
 import "../styles/WelcomePage.css";
-import { Link } from "react-router-dom";
 import BackgroundImage from "./BackgroundImage";
 
 
@@ -41,6 +40,3 @@ const SpinTheWheel = () => {
 };
 
 export default SpinTheWheel;
-
-
- {/*style={{ backgroundImage: SpinTheWheelBackground }} */}

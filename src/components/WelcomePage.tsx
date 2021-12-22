@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import MainMenuNavigation from "./MainMenuNavigation";
 import "../styles/WelcomePage.css";
 import WelcomeBackground from "../img/WelcomeBackground.png";
 import { Link } from "react-router-dom";
@@ -30,8 +29,3 @@ function WelcomePage() {
 }
 
 export default WelcomePage;
-
-
-{
-  /* style={{ backgroundImage: WelcomePageBackground }} */
-}

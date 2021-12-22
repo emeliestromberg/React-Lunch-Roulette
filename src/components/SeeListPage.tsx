@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/SeeListPage.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import SeeListBackground from "../img/SeeListBackground.png";
 import ParticipantList from "./programs/ParticipantList";
 import BackgroundImage from "./BackgroundImage";
+import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
 
 
 interface Button {
@@ -27,11 +28,13 @@ const SeeListPage = () => {
           </div>
           <ParticipantList />
         </div>
+        <div>
+          <p>Wow! So many fun Forre Friends!</p>
+          <img src={SpeechBubbleRight} alt="Bubble" />
+        </div>
       </BackgroundImage>
     </>
   );
 };
 
 export default SeeListPage;
-
-{/*style={{ backgroundImage: SeeListPageBackground }}*/}

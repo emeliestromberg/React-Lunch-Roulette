@@ -4,6 +4,7 @@ import RemovePersonBackground from "../img/RemovePersonBackground.png";
 import "../styles/WelcomePage.css";
 import RemoveForm from "./programs/RemoveForm";
 import BackgroundImage from "./BackgroundImage";
+import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
 
 
 interface Button {
@@ -20,20 +21,22 @@ const RemovePerson = () => {
 
   return (
     <>
-    <BackgroundImage image={RemovePersonBackground}>
-      <div
-        className="removePersonBackground"
-      ></div>
-      <div>
-        <ul>{buttons.map(renderButtons)}</ul>
-      </div>
-      <RemoveForm/>
-    </BackgroundImage>
+      <BackgroundImage image={RemovePersonBackground}>
+        <div className="removePersonBackground"></div>
+        <div>
+          <ul>{buttons.map(renderButtons)}</ul>
+        </div>
+        <div>
+          <p>
+            Here you can remove people <br />
+            from the Lunch Roulette
+          </p>
+          <img src={SpeechBubbleRight} alt="Bubble" />
+        </div>
+        <RemoveForm />
+      </BackgroundImage>
     </>
   );
 };
 
 export default RemovePerson;
-
-
-{/*style={{ backgroundImage: RemovePersonBackground }}*/}
