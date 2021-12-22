@@ -19,7 +19,7 @@ const Routes: FunctionComponent = () => {
   return (
     <BrowserRouter>
       <ReactRouterDomRoutes>
-        <Route path="/Home" element={<WelcomePage />}></Route>
+        <Route path="/" element={<WelcomePage />}></Route>
         <Route path="/List" element={<SeeListPage />}></Route>
         <Route path="/SpinTheWheel" element={<SpinTheWheelPage />}></Route>
         <Route path="/RemovePerson" element={<RemovePersonPage />}></Route>

@@ -9,10 +9,6 @@ p {
   padding: 0;
   font-family: arial;
 } 
-.welcomePageBackground{
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .pictureAndButton {
   top: 60px;
 }

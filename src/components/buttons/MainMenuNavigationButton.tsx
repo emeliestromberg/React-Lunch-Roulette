@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from "react";
+import { Link } from "react-router-dom";
 //import "src/styles/MainMenuNavigation.css";
 
 interface Props {
@@ -10,7 +11,7 @@ const MainMenuNavigationButton: FunctionComponent<Props> = (props) => {
   return (
     <li>
       <div className="button button1 firstli">
-        <a href={props.link}>{props.buttontext}</a>
+        <Link to= {props.link}>{props.buttontext}</Link>
       </div>
     </li>
   );

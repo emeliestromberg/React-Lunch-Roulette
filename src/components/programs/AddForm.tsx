@@ -1,21 +1,40 @@
-import React, { useState } from "react";
-import "src/styles/AddPersonPage.css";
+import React, { useState, useContext } from "react";
+import "../../styles/AddPersonPage.css";
+import { RouletteContext } from "../../RoueletteContext";
 
 
 const AddPersonForm = () => {
     const [person, setPerson] = useState("");
+
+  const { addPersonToList, persons } = useContext(RouletteContext);
+
+  const personExists = persons.some(p=>p.name === person) 
+
   return (
     <>
       <section className="formSection">
         <div className="addPersonForm">
-          <form action="">
-            <label htmlFor="name">Name of frontier:</label>
-            <br />
-            <input type="text" name="name" id="name" placeholder="Enter name" value={person} onChange={(e) => setPerson(e.target.value)}/>
-            <br />
-            <input className="submitb" type="submit" value="Submit" />
-          </form>
-          <p>Hello and welcome to our new Lunch Roulette participant: { person }</p>
+          <label htmlFor="name">Name of frontier:</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter name"
+            value={person}
+            onChange={(e) => setPerson(e.target.value)}
+          />
+          <br />
+          {!personExists && 
+          <button
+            className="submitb"
+            onClick={() => addPersonToList(person)}>
+            Add
+          </button>}
+          {personExists && <p>Person is already on the list</p>}
+          <p>
+            Hello and welcome to our new Lunch Roulette participant: {person}
+          </p>
         </div>
       </section>
     </>

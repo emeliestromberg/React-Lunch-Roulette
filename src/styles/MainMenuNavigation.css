@@ -51,7 +51,7 @@ left: 0%;
 }
 ul {
   white-space: nowrap;
-  position: absolute;
+/*position: absolute;*/
   top: 89%;
   left: 13.5%;
 }
@@ -83,7 +83,7 @@ li {
   color: rgb(0, 0, 0);
   transform: translateY(-7px);
 }
-.fisrtli {
+/*.fisrtli {
   padding-left: unset;
   padding-left: 10000px;
-}
+}*/

@@ -2,9 +2,11 @@ import React from "react";
 import "../App.css";
 import SpinTheWheelButton from "./buttons/SpinTheWheelButton";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-//import SpinTheWheelBackground from "../img/SpinTheWheelBackground.png";
+import SpinTheWheelBackground from "../img/SpinTheWheelBackground.png";
 import "../styles/WelcomePage.css";
 import { Link } from "react-router-dom";
+import BackgroundImage from "./BackgroundImage";
+
 
 interface Button {
   text: string;
@@ -25,16 +27,15 @@ const SpinTheWheel = () => {
 
   return (
     <>
-      <div
-        className="spinTheWheelBackground"
-       
-      ></div>
-      <div>
-        <ul>{buttons.map(renderButtons)}</ul>
-      </div>
-      <div>
-        <ul>{playbutton.map(renderPlayButton)}</ul>
-      </div>
+      <BackgroundImage image={SpinTheWheelBackground}>
+        <div className="spinTheWheelBackground"></div>
+        <div>
+          <ul>{buttons.map(renderButtons)}</ul>
+        </div>
+        <div>
+          <ul>{playbutton.map(renderPlayButton)}</ul>
+        </div>
+      </BackgroundImage>
     </>
   );
 };

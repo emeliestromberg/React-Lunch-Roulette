@@ -1,8 +1,10 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-//import AddPersonBackground from "../img/AddPersonBackground.png";
+import AddPersonBackground from "../img/AddPersonBackground.png";
 import "../styles/WelcomePage.css";
 import AddForm from "./programs/AddForm";
+import BackgroundImage from "./BackgroundImage";
+
 
 
 interface Button {
@@ -19,13 +21,13 @@ const AddPerson = () => {
 
   return (
     <>
-      <div
-        className="addPersonBackground"
-      ></div>
-      <div>
-        <ul>{buttons.map(renderButtons)}</ul>
-      </div>
-      <AddForm/>
+      <BackgroundImage image = {AddPersonBackground}>
+        <div className="addPersonBackground"></div>
+        <div>
+          <ul>{buttons.map(renderButtons)}</ul>
+        </div>
+        <AddForm />
+      </BackgroundImage>
     </>
   );
 };

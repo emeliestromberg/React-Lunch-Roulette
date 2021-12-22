@@ -1,8 +1,10 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-//import RemovePersonBackground from "../img/RemovePersonBackground.png";
+import RemovePersonBackground from "../img/RemovePersonBackground.png";
 import "../styles/WelcomePage.css";
 import RemoveForm from "./programs/RemoveForm";
+import BackgroundImage from "./BackgroundImage";
+
 
 interface Button {
   text: string;
@@ -18,6 +20,7 @@ const RemovePerson = () => {
 
   return (
     <>
+    <BackgroundImage image={RemovePersonBackground}>
       <div
         className="removePersonBackground"
       ></div>
@@ -25,6 +28,7 @@ const RemovePerson = () => {
         <ul>{buttons.map(renderButtons)}</ul>
       </div>
       <RemoveForm/>
+    </BackgroundImage>
     </>
   );
 };

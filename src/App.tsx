@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import Routes from "./Routes";
-import WelcomePage from "./components/WelcomePage";
+import { RouletteContextProvider } from "./RoueletteContext";
 
 function App() {
   return (
     <div className="App">
-      <Routes/>
-  
+      <RouletteContextProvider>
+        <Routes />
+      </RouletteContextProvider>
     </div>
   );
 }

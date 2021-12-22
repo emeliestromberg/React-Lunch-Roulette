@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "../styles/SeeListPage.css";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
-//import SeeListPageBackground from "../img/SeeListBackground.png";
+import SeeListBackground from "../img/SeeListBackground.png";
 import ParticipantList from "./programs/ParticipantList";
+import BackgroundImage from "./BackgroundImage";
+
 
 interface Button {
   text: string;
@@ -18,12 +20,14 @@ const SeeListPage = () => {
 
   return (
     <>
-      <div>
+      <BackgroundImage image={SeeListBackground}>
         <div>
-          <ul>{buttons2.map(renderButtons)}</ul>
+          <div>
+            <ul>{buttons2.map(renderButtons)}</ul>
+          </div>
+          <ParticipantList />
         </div>
-        <ParticipantList />
-      </div>
+      </BackgroundImage>
     </>
   );
 };
