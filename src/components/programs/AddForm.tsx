@@ -25,18 +25,17 @@ const AddPersonForm = () => {
             onChange={(e) => setPerson(e.target.value)}
           />
           <br />
-          {!personExists && 
-          <button
-            className="submitb"
-            onClick={() => addPersonToList(person)}>
-            Add
-          </button>}
+          {!personExists && (
+            <button className="submitb" onClick={() => addPersonToList(person)}>
+              Add
+            </button>
+          )}
           {personExists && <p>Person is already on the list</p>}
-          <p>
-            Hello and welcome to our new Lunch Roulette participant: {person}
-          </p>
         </div>
       </section>
+      <div>
+        <p>Hello and welcome to our new Lunch Roulette participant: {person}</p>
+      </div>
     </>
   );
 };
