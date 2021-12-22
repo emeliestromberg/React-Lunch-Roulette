@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import fs from "fs";
 
 let plist: Array<string>;
 
@@ -13,21 +14,17 @@ const ParticipantList = () => {
     {},
   ]);
 
-const fsw = require("fsw");
 
 let text = "Something you want to write in";
 
-fsw.writeFileSync("Participants.txt", text, function (err: any) {
-  if (err) {
-    return console.log("error");
-  }
+fs.writeFileSync("Participants.txt", text, {
+  
 });
 
   
 
-const fsr = require("fsr");
 
-fsr.readFile(
+fs.readFile(
   "Participants.txt",
   function (err: any, data: { toString: () => string }) {
     if (err) throw err;
