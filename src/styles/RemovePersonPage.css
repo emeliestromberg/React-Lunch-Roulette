@@ -81,3 +81,35 @@ input {
 ::placeholder {
   color: rgb(247, 188, 78);
 }
+.intro img {
+  position: absolute;
+  top: 45%;
+  left: 16%;
+  width: 20em;
+  height: 10em;
+  z-index: 1;
+}
+.goodbye img {
+  position: absolute;
+  top: 41%;
+  right: 12%;
+  width: 34em;
+  height: 15em;
+  z-index: 1;
+  transform: rotate(7deg);
+}
+h3 {
+  position: absolute;
+  right: 16%;
+  top: 45%;
+  z-index: 2;
+  transform: rotate(7deg);
+  font-size: 26px;
+}
+h2 {
+  position: absolute;
+  left: 26%;
+  top: 55%;
+  z-index: 2;
+  font-size: 26px;
+}

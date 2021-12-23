@@ -97,3 +97,35 @@ input [type="submit"] {
   border: 2px solid black;
   border-radius: 36px;
 }
+.intro img {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  width: 25em;
+  height: 10em;
+  z-index: 1;
+  transform: rotate(-16deg);
+}
+h2 {
+  position: absolute;
+  top: 8%;
+  left: 11%;
+  z-index: 2;
+  transform: rotate(-16deg);
+}
+.welcome img {
+  position: absolute;
+  top: 41%;
+  right: 9%;
+  width: 40em;
+  height: 15em;
+  z-index: 1;
+}
+h3 {
+  position: absolute;
+  top: 45%;
+  right: 19px;
+  z-index: 2;
+  font-size: 38px;
+  transform: rotate(0deg);
+}

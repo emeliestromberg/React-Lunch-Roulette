@@ -34,7 +34,7 @@ const AddPersonForm = () => {
         </div>
       </section>
       <div>
-        <p>Hello and welcome to our new Lunch Roulette participant: {person}</p>
+        <h3>Hello and welcome to our <br /> new Lunch Roulette participant: <br /> {person}</h3>
       </div>
     </>
   );

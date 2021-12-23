@@ -29,7 +29,7 @@ const SeeListPage = () => {
           <ParticipantList />
         </div>
         <div>
-          <p>Wow! So many fun Forre Friends!</p>
+          <h2>Wow! So many fun Forre Friends!</h2>
           <img src={SpeechBubbleRight} alt="Bubble" />
         </div>
       </BackgroundImage>

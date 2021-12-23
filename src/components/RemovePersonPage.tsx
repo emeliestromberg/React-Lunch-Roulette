@@ -1,7 +1,7 @@
 import React from "react";
 import MainMenuNavigationButton from "./buttons/MainMenuNavigationButton";
 import RemovePersonBackground from "../img/RemovePersonBackground.png";
-import "../styles/WelcomePage.css";
+import "../styles/RemovePersonPage.css";
 import RemoveForm from "./programs/RemoveForm";
 import BackgroundImage from "./BackgroundImage";
 import SpeechBubbleRight from "../img/SpeechBubbleRight.png";
@@ -26,11 +26,14 @@ const RemovePerson = () => {
         <div>
           <ul>{buttons.map(renderButtons)}</ul>
         </div>
-        <div>
-          <p>
+        <div className="intro">
+          <h2 className="introh">
             Here you can remove people <br />
             from the Lunch Roulette
-          </p>
+          </h2>
+          <img src={SpeechBubbleRight} alt="Bubble" />
+        </div>
+        <div className="goodbye">
           <img src={SpeechBubbleRight} alt="Bubble" />
         </div>
         <RemoveForm />

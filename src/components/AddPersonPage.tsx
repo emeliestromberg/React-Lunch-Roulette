@@ -26,11 +26,14 @@ const AddPerson = () => {
         <div>
           <ul>{buttons.map(renderButtons)}</ul>
         </div>
-        <div>
-          <p>
-            Here you can add people <br />
-            to the Lunch Roulette
-          </p>
+        <h2>
+          Here you can add people <br />
+          to the Lunch Roulette
+        </h2>
+        <div className="intro">
+          <img src={SpeechBubbleRight} alt="Bubble" />
+        </div>
+        <div className="welcome">
           <img src={SpeechBubbleRight} alt="Bubble" />
         </div>
         <AddForm />

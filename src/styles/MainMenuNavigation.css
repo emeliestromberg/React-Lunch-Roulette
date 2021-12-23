@@ -51,12 +51,13 @@ left: 0%;
 }
 ul {
   white-space: nowrap;
-/*position: absolute;*/
+  position: absolute; 
   top: 89%;
   left: 13.5%;
 }
 li {
   display: inline-block;
+  position: absolute;
   font-size: 16px;
   padding-left: 40px;
 }
